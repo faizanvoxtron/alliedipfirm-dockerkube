@@ -1,0 +1,41 @@
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "package" in /home/alliedipfirm/public_html/query/includes/data.php on line 18
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "package" in /home/alliedipfirm/public_html/query/includes/data.php on line 24
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "package" in /home/alliedipfirm/public_html/query/includes/data.php on line 30
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "package" in /home/alliedipfirm/public_html/query/includes/data.php on line 36
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 81
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 86
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 91
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 97
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 102
+[04-Jan-2024 23:53:32 UTC] PHP Warning:  Undefined array key "id" in /home/alliedipfirm/public_html/query/brief.php on line 5
+[04-Jan-2024 23:53:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/alliedipfirm/public_html/service/connectionClass.php:126
+Stack trace:
+#0 /home/alliedipfirm/public_html/query/brief.php(5): database->selectData('leads', Array, Array)
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/connectionClass.php on line 126
+[24-Jan-2024 22:12:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/alliedipfirm/public_html/service/connectionClass.php:126
+Stack trace:
+#0 /home/alliedipfirm/public_html/query/payment.php(13): database->selectData('leads', Array, Array)
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/connectionClass.php on line 126
+[24-Jan-2024 22:12:31 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 81
+[24-Jan-2024 22:12:31 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 86
+[24-Jan-2024 22:12:31 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 91
+[24-Jan-2024 22:12:31 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 97
+[24-Jan-2024 22:12:31 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 102
+[24-Jan-2024 22:12:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/alliedipfirm/public_html/service/connectionClass.php:126
+Stack trace:
+#0 /home/alliedipfirm/public_html/query/brief.php(5): database->selectData('leads', Array, Array)
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/connectionClass.php on line 126
+[30-Jan-2024 01:25:07 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 81
+[30-Jan-2024 01:25:07 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 86
+[30-Jan-2024 01:25:07 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 91
+[30-Jan-2024 01:25:07 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 97
+[30-Jan-2024 01:25:07 UTC] PHP Warning:  Undefined array key "search" in /home/alliedipfirm/public_html/query/includes/data.php on line 102
+[30-Jan-2024 01:25:07 UTC] PHP Warning:  Undefined array key "id" in /home/alliedipfirm/public_html/query/brief.php on line 5
+[30-Jan-2024 01:25:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on string in /home/alliedipfirm/public_html/service/connectionClass.php:126
+Stack trace:
+#0 /home/alliedipfirm/public_html/query/brief.php(5): database->selectData('leads', Array, Array)
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/connectionClass.php on line 126

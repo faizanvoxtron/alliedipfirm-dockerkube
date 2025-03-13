@@ -1,0 +1,69 @@
+[06-Jan-2023 01:56:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 02:01:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:02:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:02:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:03:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:06:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:13:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:16:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:19:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:22:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(21): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[06-Jan-2023 16:27:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php:114
+Stack trace:
+#0 /home/devtestlink/public_html/copyright-promotion/query/payment.php(23): database->selectData('payIntents', Array, Array)
+#1 {main}
+  thrown in /home/devtestlink/public_html/copyright-promotion/service/connectionClass.php on line 114
+[13-Jan-2023 16:02:26 UTC] PHP Fatal error:  Uncaught (Status 403) (Request req_lWJJIxe8VxHwMD) This API call cannot be made with a publishable API key. Please use a secret API key. You can find a list of your API keys at https://dashboard.stripe.com/account/apikeys.
+  thrown in /home/devtestlink/public_html/copyright-promotion/query/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[13-Jan-2023 16:03:00 UTC] PHP Fatal error:  Uncaught (Status 403) (Request req_AholuRXecxKpYR) This API call cannot be made with a publishable API key. Please use a secret API key. You can find a list of your API keys at https://dashboard.stripe.com/account/apikeys.
+  thrown in /home/devtestlink/public_html/copyright-promotion/query/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38

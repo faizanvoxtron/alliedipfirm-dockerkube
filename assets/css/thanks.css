@@ -1,0 +1,154 @@
+.get-quote {
+            margin: 15px 0 0 0;
+            padding: 10px 15px;
+            background: #0d356d;
+            border-radius: 7px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            min-width: 100px;
+            border: 0;
+            text-transform: uppercase;
+        }
+        .get-quote:hover {
+            margin: 15px 0 0 0;
+            padding: 10px 15px;
+            background: #fff;
+            border-radius: 7px;
+            color: #0d356d;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            min-width: 100px;
+            border: 0;
+            text-transform: uppercase;
+            box-shadow: 0 0px 6px #0d356d;
+        }
+        
+        .logo-wrapper img {
+            /*width: 225px;*/
+            height: 55px;
+            margin: 8px 0 0 0;
+        }
+    /*
+        Thank You
+    */
+    .thanks-top {
+        text-align: center;
+        display: block;
+    }
+    
+    .thanks-top .sm-title {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .thanks-top p {
+        text-align: center;
+        font-size: 18px;
+        color: #838383;
+    }
+    
+    .thanks-top .big-title {
+        font-size: 48px;
+        font-weight: 800;
+        color: #000;
+    }
+    
+    h4.f-title {
+        font-size: 21px;
+        font-weight: 800;
+        color: #1ee32d;
+    }
+    section.disclaimer {
+        background: #222;
+        color: #fff;
+        margin: 0;
+        padding: 28px 0 16px 0;
+    }
+    .touch {
+        text-align: center;
+        margin: 35px 0 0;
+    }
+    .icon-box {
+        margin: 0;
+        display: block;
+        position: relative;
+    }
+    .icon-box a{
+        text-decoration: none;
+    }
+    .icon-box span.icon {
+        width: 80px;
+        height: 80px;
+        background: #e1e1e1;
+        border-radius: 50px;
+        display: block;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    
+    .icon-box span.icon img {
+        width: 48px;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+    
+    .icon-box p {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .icon-box span a {
+        font-size: 21px;
+        text-decoration: none;
+        color: #0d356d;
+    }
+        @media screen and (max-width:991px) {
+            .logo-wrapper {
+                margin: 10px 0 0 0;
+            }
+            .logo-wrapper img {
+                width: 170px;
+                display: block;
+                margin: auto;
+            }
+                        .get-quote {
+                float: unset !important;
+            }
+            .get-quote {
+                float: unset !important;
+                margin: 15px auto 0 auto;
+                width: 155px;
+                display: block;
+            }
+            .b-navigation__menu-right {
+                display: flex;
+                justify-content: center;
+                pointer-events: auto;
+                margin: 47px auto 12px auto;
+            }
+    
+            section.briefForm {
+                margin-top: 20px;
+            }
+    
+            .seqImg {
+                margin: 0 0 45px 0;
+                padding: 0;
+            }
+    
+            section.briefForm .pe-5 {
+                padding-right: 0 !important;
+            }
+    
+            .sidebar {
+                margin: 0 0 25px 0;
+            }
+        }

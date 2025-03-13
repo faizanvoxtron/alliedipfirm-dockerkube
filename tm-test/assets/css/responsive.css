@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    .form-check {
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .trusted {
+        text-align: left;
+    }
+    .trusted img {
+        width: 200px;
+        padding-top:0px;
+    }
+
+    .content h3 span {
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .box textarea {
+        height: 220px;
+    }
+}

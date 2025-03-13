@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: alliedipfirm-web
+  namespace: aipf
+spec:
+  selector:
+    app: alliedipfirm-web
+  ports:
+    - protocol: TCP
+      port: 8082
+      targetPort: 80

@@ -1,0 +1,30 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: alliedipfirm-ingress
+  namespace: aipf
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: alliedipfirm.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: alliedipfirm-web
+                port:
+                  number: 8082
+    - host: www.alliedipfirm.com  # <-- Add this
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: alliedipfirm-web
+                port:
+                  number: 8082

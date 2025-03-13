@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# Caching for 1 YEAR
+<filesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+Header set Cache-Control "max-age=29030400, public"
+</filesMatch>
+
+# Caching for 1 WEEK
+<filesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</filesMatch>
+
+# Caching for 3 HOUR
+<filesMatch "\.(txt|xml|js|css)$">
+Header set Cache-Control "max-age=10800"
+</filesMatch>
+
+# Caching for 4 HOURS
+<FilesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=14400, must-revalidate"
+</FilesMatch>

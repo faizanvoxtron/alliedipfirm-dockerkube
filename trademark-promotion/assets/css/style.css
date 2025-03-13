@@ -1,0 +1,1246 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2a67d2;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #132d46;
+}
+
+/* Main Content CSS Start Here */
+
+/* Header CSS Start */
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.header-box .telephone-num {
+  color: #fff;
+}
+
+.header-box .telephone-num i {
+  margin-right: 10px;
+}
+
+.contact-sec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.theme-btn {
+  background: linear-gradient(to right, #2a67d2 0%, #19beba 100%);
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.theme-btn:hover {
+  background: linear-gradient(to right, #19beba 0%, #2a67d2 100%);
+}
+/* Header CSS End */
+
+/* Banner CSS Start */
+.banner {
+  background: url(../images/banner.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.banner-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.banner h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  color: #fff;
+  margin-top: 0;
+}
+
+section.banner h1 span {
+  color: #f6cf0b;
+}
+
+section.banner h2 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 400;
+  margin: 0;
+  line-height: 24px;
+}
+
+section.banner h2 i {
+  color: #f6cf48;
+  font-size: 21px;
+  margin-top: -2px;
+  margin-right: 4px;
+}
+
+section.banner ul.list {
+  margin: 22px 0 30px;
+  padding: 0;
+}
+
+section.banner ul.list li {
+  font-size: 14px;
+  margin-bottom: 11px;
+  font-weight: 600;
+  color: #fff;
+}
+
+section.banner ul.list li i {
+  margin-right: 10px;
+  color: #f6cf0b;
+  font-size: 18px;
+}
+
+section.banner .button-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-blue-btn {
+  font-size: 18px;
+  border-radius: 100px;
+  padding: 12px 24px;
+  font-weight: 500;
+}
+
+.yellow-btn {
+  font-size: 18px;
+  border-radius: 100px;
+  padding: 12px 32px;
+  background: #f6cf0b;
+  color: #000;
+  font-weight: 500;
+}
+
+div#CountDownTimer {
+  width: 250px;
+  text-shadow: #000 1px 1px 2px;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.banner-form {
+  width: 85%;
+  color: #000;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.23) 0 11px 92px;
+  float: right;
+  z-index: 3;
+  text-align: center;
+}
+
+.banner-form:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 104%;
+  left: -8px;
+  right: 0;
+  top: -8px;
+  border-radius: 22px;
+  height: 126px;
+  background: linear-gradient(to right, #2a67d2 0%, #19beba 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d22a43",endColorstr="#f0760a",GradientType=1);
+  z-index: -1;
+}
+
+.banner-form form {
+  padding: 30px 20px 40px;
+  background: #fff;
+  border-radius: 22px;
+}
+
+.banner-form form h3 {
+  font-size: 29px;
+  margin: 0 0 10px;
+  line-height: 31px;
+  font-weight: 500;
+}
+
+.banner-form form h3 span {
+  color: #d6333a;
+  display: block;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.banner-form select,
+.banner-form input {
+  width: 97%;
+  padding: 10px 0;
+  margin-bottom: 0px;
+  border: 0;
+  border-bottom: 1px solid #f07612 !important;
+  outline: none;
+  background: #fff;
+  font-size: 12px;
+  color: #464646;
+  font-weight: 500;
+  height: 45px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.banner-form textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 25px 5px;
+  margin-bottom: 0px;
+  border: 0;
+  border-bottom: 1px solid #f07612 !important;
+  outline: none;
+  font-size: 13px;
+  line-height: normal;
+  color: #000;
+  font-weight: 500;
+  border-radius: 0;
+  resize: none;
+  padding-top: 10px;
+}
+
+.banner-form input[type="submit"] {
+  border: none;
+  box-shadow: none;
+  padding: 13px 28px;
+  margin-top: 0;
+  border-radius: 5px;
+  margin-bottom: 0;
+  outline: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 17px;
+  width: 100%;
+  margin: 0 auto !important;
+  height: auto;
+  color: #fff;
+  font-weight: 500;
+  background: linear-gradient(to right, #2a67d2 0%, #19beba 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d22a43",endColorstr="#f0760a",GradientType=1);
+}
+
+.banner-form input[type="submit"]:hover {
+  background: linear-gradient(to right, #19beba 0%, #2a67d2 100%);
+}
+
+.banner-field-container {
+  padding: 5px 0px;
+}
+/* Banner CSS End */
+
+/* Our Work Section CSS Start */
+.our-work {
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+  background: #f9f9f9;
+}
+
+.our-work h2 {
+  font-size: 36px;
+  color: #232323;
+  margin: 0 0 15px;
+  font-weight: 500;
+}
+
+.our-work p {
+  margin-bottom: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #848a9c;
+  width: 65%;
+  margin: 0 auto 60px;
+}
+
+.our-work h4 {
+  margin: 35px 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.our-work img {
+  display: table;
+  margin: 0 auto 8px;
+  height: 75px;
+}
+
+.our-work h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #475268;
+}
+
+.our-work [class^="col-"] p {
+  color: #8292b0;
+  width: 86%;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* Our Work Section CSS End */
+
+/* Portfolio Section CSS Start */
+section.portfolio {
+  background: #eee;
+  padding: 100px 0;
+  text-align: center;
+}
+
+section.portfolio h2 {
+  font-size: 36px;
+  color: #000;
+  font-weight: 500;
+  margin: 0 0 10px;
+  position: relative;
+}
+
+section.portfolio h2 + p {
+  font-size: 14px;
+  color: #858899;
+  font-weight: 300;
+  line-height: 25px;
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: -7px;
+  font-style: italic;
+}
+
+#portfolio-carousel {
+  margin-top: 50px;
+}
+/* Portfolio Section CSS End */
+
+/* Design Section CSS Start */
+section.design-industry {
+  padding: 50px 0;
+  background: #f1f1f1;
+}
+
+section.design-industry h4 {
+  font-size: 40px;
+  color: #232323;
+  margin-top: 74px;
+  margin-bottom: 0;
+  letter-spacing: 0;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+section.design-industry img {
+  float: right;
+}
+/* Design Industry Section CSS End */
+
+/* Packages Section For Desktop & Mobile CSS Start */
+.our-packages {
+  display: block;
+  padding: 100px 0;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.our-packages h2 {
+  padding: 0;
+  font-weight: 500;
+  margin: 0 0 10px;
+  font-size: 36px;
+  color: #232323;
+}
+
+.our-packages p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141;
+}
+
+.choose-packages-box {
+  margin: 50px 0;
+}
+
+.choose-packages-box .table-responsive {
+  overflow-x: inherit;
+  min-height: 0.01%;
+}
+
+.choose-packages-box .package-titles {
+  width: 100%;
+  display: table;
+  border-bottom: 4px solid #fff;
+}
+
+.choose-packages-box .column.first {
+  width: 20.5% !important;
+  display: table-cell;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 20px;
+}
+
+.choose-packages-box .column.second,
+.choose-packages-box .column.third,
+.choose-packages-box .column.four {
+  width: 21.5%;
+  display: table-cell;
+  text-align: center;
+  margin: 0 2px;
+  background: #000;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+  padding: 35px 20px;
+}
+
+.choose-packages-box .column.second {
+  background: linear-gradient(135deg, #8e8e8e 0%, #b4b4b4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8e8e8e",endColorstr="#b4b4b4",GradientType=1);
+}
+
+.choose-packages-box .column.third {
+  background: linear-gradient(135deg, #fb8138 0%, #fec700 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8a56d2",endColorstr="#b262fb",GradientType=1);
+  position: relative;
+}
+
+.choose-packages-box .column.four {
+  background: linear-gradient(135deg, #1e1e1e 0%, #4e4e4e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb8a45",endColorstr="#ffca28",GradientType=1);
+}
+
+.choose-packages-box .column h3 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.choose-packages-box .column strong {
+  font-size: 52px;
+  color: #fff;
+  font-weight: 600 !important;
+  display: block;
+  line-height: 40px;
+}
+
+.choose-packages-box .column strong span {
+  font-size: 17px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.choose-packages-box .column span {
+  font-size: 14px;
+  color: #ffffffd4;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.choose-packages-box .column a {
+  background: #f2843f;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 162px;
+  height: 40px;
+  line-height: 37px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+
+.choose-packages-box .column.third h3 span {
+  background: url("../images/pricing_star.webp") no-repeat 14px center #7a4ab0;
+  padding: 7px 20px;
+  padding-left: 40px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  margin: 0;
+}
+
+.choose-packages-box .package-info {
+  width: 100%;
+  border: #e0e0e0 1px solid;
+  border-right: 0;
+}
+
+.choose-packages-box .package-info .tr.even {
+  background: #f3f3f3;
+}
+
+.choose-packages-box .package-info .td.first {
+  width: 24%;
+  display: table-cell;
+  background: #fbfbfb;
+  text-align: left;
+  padding-left: 20px;
+  border-right: #e0e0e0 1px solid;
+}
+
+.choose-packages-box .package-info .tr.even .td.first {
+  background: #efefef;
+}
+
+.choose-packages-box .package-info p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.choose-packages-box .package-info p span {
+  color: #f18146;
+}
+
+.choose-packages-box .package-info .td.second,
+.choose-packages-box .package-info .td.third,
+.choose-packages-box .package-info .td.four {
+  width: 25%;
+  display: table-cell;
+  height: 65px;
+  border-right: #e0e0e0 1px solid;
+}
+
+.choose-packages-box .package-info .td.first {
+  width: 24%;
+  display: table-cell;
+  background: #fbfbfb;
+  text-align: left;
+  padding-left: 20px;
+  border-right: #e0e0e0 1px solid;
+}
+
+.choose-packages-box .package-info .tr {
+  width: 100%;
+  display: table;
+  min-height: 65px;
+  border-right: 1px solid #eee;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+}
+
+.choose-packages-box .package-info + .package-titles .column {
+  padding: 20px 0 !important;
+  width: 25.2% !important;
+  margin: 0 1px !important;
+  float: left;
+  border: 0 !important;
+}
+
+.choose-packages-box .package-info + .package-titles .column.first {
+  width: 24% !important;
+}
+
+.choose-packages-box .package-info + .package-titles .column {
+  padding: 20px 0 !important;
+  width: 25.1% !important;
+  margin: 0 1px !important;
+  float: left;
+  border: 0 !important;
+}
+
+.choose-packages-box
+  .package-info
+  + .package-titles
+  .column
+  a.various.grad-btn {
+  width: 94%;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.show-mobile {
+  display: none;
+}
+
+/* .img-container {
+  width: 35px;
+  height: 35px;
+  border-radius: 9999px;
+  position: relative;
+}
+
+.flag-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  object-fit: cover;
+  color: transparent;
+  border-radius: 9999px;
+}
+
+.choose-packages-box .column.first {
+  width: 20.5% !important;
+  display: table-cell;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 20px;
+  background: #e0e0e0;
+}
+
+h3.custom-heading {
+  line-height: 24px;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #000 !important;
+  font-size: 18px !important;
+} */
+
+/* Packages Section For Desktop & Mobile CSS End */
+
+/* Cororate Package CSS Start */
+.section-package {
+  background: #faf6f0;
+  background: url("../images/combo-bg.webp");
+  padding: 100px 0;
+}
+
+.package-content h2 {
+  color: #4151a4;
+  font-size: 52px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0 auto;
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #f86c5f 0%,
+    #ff7e75 50%,
+    #f8572d 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -4px;
+  padding-bottom: 14px;
+}
+
+.package-content .left-one {
+  float: left;
+  color: #fff;
+  padding-left: 6px;
+  clear: both;
+  padding-top: 10px;
+  width: 45%;
+}
+
+.package-content li {
+  color: #fff;
+  margin-top: 12px;
+}
+
+.package-content li i {
+  margin-right: 10px;
+}
+
+.corporate-package-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column.four.combo-package {
+  padding: 75px 20px;
+  border-left: none;
+  border-right: none;
+  background: #000;
+  border-radius: 5px;
+}
+/* Corporate Package CSS End */
+
+/* Disclaimer Section CSS Start */
+.disclaimer p {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  padding: 50px 0;
+  font-style: italic;
+  padding-top: 0;
+  text-align: center;
+}
+/* Disclaimer Section CSS End */
+
+/* Helping Brand Section CSS Start */
+section.helpingbrand {
+  padding: 50px 0;
+  text-align: center;
+  color: #232323;
+}
+
+section.helpingbrand h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 38px;
+  font-size: 36px;
+  color: #232323;
+}
+
+section.helpingbrand p {
+  font-size: 14px;
+  color: #696969;
+  padding: 0 170px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+section.helpingbrand ul {
+  margin-top: 50px;
+}
+
+section.helpingbrand ul li {
+  display: inline-block;
+  padding: 0 20px;
+  width: 24%;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+section.helpingbrand ul li i {
+  display: block;
+  margin-bottom: 20px;
+}
+/* Helping Brand Section CSS End */
+
+/* CTA Section CSS Start */
+section.cta-n {
+  color: #fff;
+  background: #fe7e00;
+  padding: 50px 0;
+}
+
+.cta-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.cta-n h4 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+section.cta-n ul {
+  margin: 0;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+section.cta-n ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+}
+
+section.cta-n ul li i {
+  font-size: 50px;
+}
+
+section.cta-n ul li h4 {
+  font-size: 16px;
+}
+
+section.cta-n ul li a {
+  font-size: 16px;
+  color: #fff;
+}
+/* CTA Section CSS End */
+
+/* Reviews Section CSS Start */
+section.satisfied-customer {
+  background: #eee;
+  padding: 100px 0;
+}
+
+section.satisfied-customer .leftsec {
+  width: 50%;
+  float: left;
+  display: -webkit-flex;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: left;
+  align-items: left;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 340px;
+  padding-left: 50px;
+}
+
+section.satisfied-customer h2 {
+  font-size: 32px;
+  color: #000;
+  font-weight: 700;
+  margin: 0 0 10px;
+  position: relative;
+}
+
+section.satisfied-customer h2 + p {
+  font-size: 14px;
+  color: #858899;
+  font-weight: 300;
+  line-height: 25px;
+  font-style: italic;
+}
+
+section.satisfied-customer .rightsec {
+  float: left;
+  text-align: right;
+  width: 50%;
+}
+
+section.satisfied-customer .rightsec img {
+  display: inline-block;
+  width: 380px;
+}
+section.satisfied-customer h2:before {
+  content: "";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  font-size: 152px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: -90px;
+  color: #e0dfdf;
+  opacity: 0.7;
+  z-index: -1;
+  left: -30px;
+}
+
+.customerslider .owl-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+.customerslider .owl-dot.active span {
+  height: 12px;
+  background: #d42d3e !important;
+  width: 12px;
+  display: inline-block;
+  border-radius: 100px;
+}
+/* Reviews Section CSS End */
+
+/* Footer CSS Start */
+footer {
+  background: #000727;
+  background-size: cover;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+footer h2 + p {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#footerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+#footerForm .row {
+  width: 80%;
+}
+
+.form-control:focus {
+  border-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}
+
+#footerForm .form-control {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+  padding: 15px 20px;
+  border: 2px solid #5d6183;
+  border-radius: 50px;
+  outline: none;
+}
+
+#footerForm .form-control::placeholder {
+  color: white;
+}
+
+#footerForm textarea {
+  min-height: 150px;
+  border-radius: 20px !important;
+}
+
+#footerForm input[type="submit"] {
+  border: none;
+  box-shadow: none;
+  padding: 13px 28px;
+  margin-top: 0;
+  border-radius: 5px;
+  margin-bottom: 0;
+  outline: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 17px;
+  width: 25%;
+  margin: 0 auto !important;
+  height: auto;
+  color: #fff;
+  font-weight: 500;
+  background: linear-gradient(to right, #2a67d2 0%, #19beba 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d22a43",endColorstr="#f0760a",GradientType=1);
+}
+
+#footerForm input[type="submit"]:hover {
+  background: linear-gradient(to right, #19beba 0%, #2a67d2 100%);
+}
+/* Footer CSS End */
+
+/* Popup Form CSS Start */
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    --bs-modal-width: 1000px;
+  }
+}
+
+.popup-left-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popup-right-col {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#staticBackdrop .modal-content {
+  position: relative;
+}
+
+#staticBackdrop h2,
+#staticBackdrop h2 {
+  font-size: 26px;
+  color: #000;
+  font-weight: 600;
+  padding-left: 0;
+  margin-bottom: 12px;
+  line-height: 27px;
+  margin-top: 12px;
+}
+
+#staticBackdrop h2 span,
+#staticBackdrop h2 span {
+  color: red;
+  display: block;
+}
+
+#staticBackdrop b.pp_pr {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#staticBackdrop h2 + p,
+.popup-content h2 + p {
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+#staticBackdrop ul li input[type="text"],
+#staticBackdrop ul li input[type="email"],
+#staticBackdrop ul li input[type="tel"],
+#staticBackdrop ul li textarea {
+  background: #fff;
+  background: #ededed;
+  border: #d7d7d7 1px solid;
+  padding: 10px;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #000;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+#staticBackdrop ul li textarea {
+  height: 155px;
+  resize: none;
+}
+
+#staticBackdrop input[type="submit"] {
+  border: none;
+  box-shadow: none;
+  padding: 13px 28px;
+  margin-top: 0;
+  border-radius: 5px;
+  margin-bottom: 0;
+  outline: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 100%;
+  margin: 0 auto !important;
+  height: auto;
+  color: #fff;
+  font-weight: 500;
+  background: linear-gradient(to right, #2a67d2 0%, #19beba 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d22a43",endColorstr="#f0760a",GradientType=1);
+}
+
+#staticBackdrop .btn-close {
+  border-radius: 0;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: #000 0 0 10px;
+  position: absolute;
+  right: -14px;
+  top: -13px;
+  overflow: visible;
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(to right, #2a67d2 0%, #3f51b5 100%);
+  z-index: 200;
+  color: white;
+  opacity: 1;
+}
+/* Popup Form CSS End */
+
+/* Copyright Section CSS Start */
+.copyright {
+  background: #010086;
+  padding: 10px 0;
+}
+
+.copyright p {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* Copyright Section CSS End */
+
+/* Owl Carousel CSS */
+.owl-carousel {
+  display: block !important;
+}
+
+/* Form Error CSS */
+#bannerForm .error {
+  color: #d6333a;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Intl CSS */
+.hide {
+  display: none !important;
+}
+
+.iti {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.iti .iti__selected-dial-code {
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.iti__country {
+  font-size: 12px;
+}
+
+#bannerForm #error-msg {
+  font-weight: 600;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  font-weight: 500;
+  color: #d6333a;
+}
+
+#footerForm .iti__dropdown-content {
+  color: #000;
+  font-size: 12px;
+}
+
+#footerForm .error {
+  font-size: 12px;
+  text-align: left;
+  width: 100%;
+  font-weight: 500;
+}
+
+#footerForm #error-msg-footer {
+  font-size: 12px;
+  text-align: left;
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+#popupForm .error {
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  color: #d6333a;
+  font-weight: 500;
+}
+
+#popupForm #error-msg-popup {
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  display: block;
+  margin-top: 5px;
+  color: #d6333a;
+  font-weight: 500;
+}
+
+/* Checkout Page CSS */
+.inner-page-banner {
+  background: url(../images/footer-banner.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.inner-page-banner h1 {
+  font-size: 56px !important;
+  font-weight: 600;
+  margin: 0;
+  color: #fff;
+  margin-top: 0;
+}
+
+section.checkout {
+  padding: 50px 0;
+  text-align: center;
+}
+
+section.checkout .theme-btn {
+  padding: 20px 50px;
+  border: 0;
+}
+
+section.checkout p {
+  width: 50%;
+  margin: 20px auto;
+}
+
+section.checkout img {
+  width: 400px;
+  padding: 20px 0;
+}
+
+/* Privacy Policy Page CSS */
+
+section.privacy-policy {
+  padding: 50px 0;
+  text-align: left;
+}
+
+section.privacy-policy p {
+  width: 100%;
+  margin: 20px auto;
+}

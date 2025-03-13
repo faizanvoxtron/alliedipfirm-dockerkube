@@ -1,0 +1,143 @@
+[04-Jan-2024 18:03:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[04-Jan-2024 23:49:15 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[04-Jan-2024 23:49:19 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[04-Jan-2024 23:49:19 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/index.php:52
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/index.php(52): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/index.php on line 52
+[04-Jan-2024 23:49:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[04-Jan-2024 23:49:24 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/index.php:52
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/index.php(52): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/index.php on line 52
+[04-Jan-2024 23:49:39 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[04-Jan-2024 23:49:39 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/index.php:52
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/index.php(52): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/index.php on line 52
+[05-Jan-2024 18:07:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[05-Jan-2024 18:07:22 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[08-Jan-2024 22:16:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[08-Jan-2024 22:16:53 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/non-paid.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/non-paid.php(92): mysqli->prepare('SELECT leads.st...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/non-paid.php on line 92
+[09-Jan-2024 00:03:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[09-Jan-2024 00:03:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[09-Jan-2024 00:03:24 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/index.php:52
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/index.php(52): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/index.php on line 52
+[10-Jan-2024 22:22:55 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[10-Jan-2024 22:22:55 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[10-Jan-2024 22:58:40 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[10-Jan-2024 22:58:40 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[11-Jan-2024 19:38:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[11-Jan-2024 20:53:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[12-Jan-2024 20:09:23 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[12-Jan-2024 20:09:23 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[12-Jan-2024 20:10:35 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[12-Jan-2024 20:10:35 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/non-paid.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/non-paid.php(92): mysqli->prepare('SELECT leads.st...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/non-paid.php on line 92
+[12-Jan-2024 20:27:10 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[12-Jan-2024 20:27:10 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[12-Jan-2024 21:37:00 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[15-Jan-2024 16:56:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[15-Jan-2024 16:56:02 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/non-paid.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/non-paid.php(92): mysqli->prepare('SELECT leads.st...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/non-paid.php on line 92
+[16-Jan-2024 17:50:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[16-Jan-2024 17:50:14 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/non-paid.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/non-paid.php(92): mysqli->prepare('SELECT leads.st...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/non-paid.php on line 92
+[17-Jan-2024 21:40:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[17-Jan-2024 21:40:57 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[18-Jan-2024 20:48:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[18-Jan-2024 20:48:50 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/non-paid.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/non-paid.php(92): mysqli->prepare('SELECT leads.st...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/non-paid.php on line 92
+[23-Jan-2024 00:42:13 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[23-Jan-2024 00:42:25 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[23-Jan-2024 00:42:25 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/index.php:52
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/index.php(52): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/index.php on line 52
+[23-Jan-2024 23:22:46 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[23-Jan-2024 23:22:46 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[24-Jan-2024 23:45:16 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[25-Jan-2024 16:36:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[26-Jan-2024 17:11:26 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[26-Jan-2024 20:35:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[26-Jan-2024 20:35:32 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[26-Jan-2024 20:49:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[26-Jan-2024 20:49:50 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/ali.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/ali.php(92): mysqli->prepare('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/ali.php on line 92
+[30-Jan-2024 19:32:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[30-Jan-2024 19:32:56 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/non-paid.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/non-paid.php(92): mysqli->prepare('SELECT leads.st...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/non-paid.php on line 92
+[30-Jan-2024 20:11:30 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[30-Jan-2024 20:11:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[30-Jan-2024 20:11:56 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/index.php:52
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/index.php(52): mysqli->prepare('SELECT id, user...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/index.php on line 52
+[31-Jan-2024 16:48:20 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'alliedipfirm_leads_user'@'localhost' (using password: YES) in /home/alliedipfirm/public_html/service/signlms/system/config.php on line 11
+[31-Jan-2024 16:48:20 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/alliedipfirm/public_html/service/signlms/non-paid.php:92
+Stack trace:
+#0 /home/alliedipfirm/public_html/service/signlms/non-paid.php(92): mysqli->prepare('SELECT leads.st...')
+#1 {main}
+  thrown in /home/alliedipfirm/public_html/service/signlms/non-paid.php on line 92

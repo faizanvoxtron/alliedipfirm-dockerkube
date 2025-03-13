@@ -1,0 +1,96 @@
+name: Deploy to Kubernetes
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: Setting SSH Connection with machine  
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{secrets.SSH_PRIVATE_KEY_worker}}
+
+      - name: making git safe repository
+        run: |
+         ssh -o StrictHostKeyChecking=no ubuntu@${{secrets.public_IP_worker}} << EOF
+         git config --global --add safe.directory /home/ubuntu/alliedipfirm.com 
+         EOF
+        #  yhn pr directory aae gi 
+
+      - name: Pull updated Code From Github
+        run: |
+          ssh -o StrictHostKeyChecking=no ubuntu@${{secrets.public_IP_worker}} << EOF
+          cd /home/ubuntu/alliedipfirm.com
+          set -e
+          git checkout main
+          git pull origin main
+          EOF
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}  
+
+      - name: Build Docker File and upload it to Docker hub
+        run: |
+          ssh -o StrictHostKeyChecking=no ubuntu@${{secrets.public_IP_worker}} "
+           cd /home/ubuntu/elitedesignstudios.com
+           sudo docker build -t faizanvoxtron/alliedipfirm:latest .
+           sudo docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
+           sudo docker push faizanvoxtron/alliedipfirm.com:latest
+          " 
+      - name: Setting SSH Connection with Master-Node  
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+            ssh-private-key: ${{secrets.SSH_PRIVATE_KEY_Master}}
+  
+
+      - name: Apply Kubernetes Configurations
+        run: |
+            ssh -o StrictHostKeyChecking=no ubuntu@${{ secrets.public_IP_Master}} << "
+             cd /home/ubuntu/alliedipfirm.com/k8s
+             kubectl rollout restart deployment alliedipfirm-web -n aipf
+            "
+
+      # - name: Send email notification on success
+      #   if: success()
+      #   uses: dawidd6/action-send-mail@v3
+      #   with:
+      #     server_address: smtp.yandex.com
+      #     server_port: 465
+      #     username: 
+      #     password: 
+      #     subject: "Deployment Successful"
+      #     body: |
+      #           The deployment to the server has been successfully completed.
+      #           Site URL: "elitedesignstudios.com"
+      #           Repository: ${{ github.repository }}
+      #           Branch: ${{ github.ref }}
+      #     to: ""
+      #     from: ""
+      
+      # - name: Send email notification on failure
+      #   if: failure()
+      #   uses: dawidd6/action-send-mail@v3
+      #   with:
+      #     server_address: smtp.yandex.com
+      #     server_port: 465
+      #     username: 
+      #     password: 
+      #     subject: "Deployment Failed - Rollback Executed"
+      #     body: |
+      #           The deployment to the server has failed and a rollback has been executed.
+      #           Please check the logs for more details.
+      #           Site URL: "elitedesignstudios.com"
+      #           Repository: ${{ github.repository }}
+      #           Branch: ${{ github.ref }}
+      #     to: ""
+      #     from: ""

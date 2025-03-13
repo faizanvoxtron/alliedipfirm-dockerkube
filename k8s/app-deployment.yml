@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alliedipfirm-web
+  namespace: aipf
+  labels:
+    app: alliedipfirm-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alliedipfirm-web
+  template:
+    metadata:
+      labels:
+        app: alliedipfirm-web
+    spec:
+      containers:
+        - name: alliedipfirm-web
+          image: voxtrondocker/alliedipfirm:latest
+          ports:
+            - containerPort: 80
+          imagePullPolicy: Always
+          resources:
+            requests:
+              cpu: "100m"   # 0.1 core
+              memory: "256Mi"  # 256MB
+            limits:
+              cpu: "500m"   # 0.5 core
+              memory: "1Gi"  # 1GB
+          volumeMounts:
+            - name: alliedipfirm-volume
+              mountPath: /var/www/html
+      volumes:
+        - name: alliedipfirm-volume
+          persistentVolumeClaim:
+            claimName: aipf-pvc

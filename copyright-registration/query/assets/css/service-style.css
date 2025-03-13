@@ -1,0 +1,760 @@
+/*
+            BRIEF LAYOUT
+        */
+.logo-wrapper img {
+  /*width: 189px;*/
+  height: 55px;
+}
+.logo-wrapper h3 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  color: #fff;
+  font-size: 28px;
+  line-height: 31px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.order-price-detail {
+  margin: 0px 0px 0px 40px;
+  background: #fafafa;
+  color: #535353;
+  padding: 30px 20px 20px;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+}
+.order-price-detail p {
+  margin-bottom: 10px;
+}
+.logo-wrapper a {
+  text-decoration: none;
+}
+.logo-wrapper h3 span {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 8.4px;
+}
+section.briefForm {
+  margin-top: 0px;
+}
+
+ul.asstxt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.asstxt li {
+  display: block;
+  text-align: left;
+}
+
+ul.asstxt li span {
+  font-weight: 900;
+  color: #0d356d;
+}
+
+.logo-style {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: left;
+}
+
+.logo-style li i {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.logo-style li {
+  display: inline-block;
+  margin: 0 10px 29px 0;
+}
+
+.logo-style li p {
+  display: block;
+  margin: 8px 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4e42d4;
+}
+.logo-wrapper {
+  width: 260px;
+  /* padding: 10px 0 0; */
+}
+.action-btn {
+  margin: 0;
+  display: block;
+}
+.get-quote i {
+  margin: 0 10px 0 0;
+}
+.submit-buttons {
+  background: #0d356d;
+  border-radius: 7px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 100px;
+  border: 0;
+  text-transform: uppercase;
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+.get-quote {
+  /* margin: 15px 0 0 0; */
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 7px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 100px;
+  border: 0;
+  text-transform: uppercase;
+}
+.briefForm label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.briefForm .form-control {
+  padding: 12px 15px;
+  font-size: 18px;
+}
+
+.briefForm .form-control::placeholder {
+  color: #bbb;
+}
+
+.briefForm .form-select {
+  padding: 12px 15px;
+  font-size: 18px;
+}
+
+/*
+            SIDE PACKAGE
+        */
+.boxpackages .call,
+.boxpackages .chat {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #e42422;
+  font-weight: 600;
+}
+
+.boxpackages .call span small,
+.boxpackages .chat span small {
+  display: block;
+  font-weight: 600;
+}
+.pay-button-merchant {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  background: #00875b;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 7px;
+  text-transform: uppercase;
+}
+.need {
+  padding: 20px;
+  display: block;
+  width: 100%;
+  position: relative;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+}
+.cardyear {
+  margin: 49px 0 0 0;
+  padding: 0;
+}
+.submit-btn {
+  min-width: 150px;
+  padding: 15px 15px;
+  font-size: 18px;
+}
+.briefForm hr {
+  margin: 19px 0 10px;
+  width: 100%;
+}
+span.cards {
+  margin: 16px 0 0 0;
+  padding: 0;
+  display: block;
+}
+.secu-img {
+  margin: 35px 0 0;
+  display: block;
+}
+.need h2 {
+  color: #000;
+}
+
+.need ul {
+  margin: 0;
+  padding: 0;
+  color: #4e42d4;
+}
+
+.need ul li a {
+  display: block;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #e42422;
+}
+
+.need ul li a span {
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+}
+.boxpackages {
+  margin: 0;
+  padding: 25px 25px;
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+  box-shadow: 0 0 17px rgb(204 204 204 / 54%);
+}
+
+.boxpackages .package_head {
+  font-size: 16px;
+}
+.package_head {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+.package_head .title {
+  font-size: 32px;
+  font-weight: 700;
+  display: inline-flex;
+}
+
+.package_head .price-box {
+  display: block;
+  clear: both;
+  float: inherit;
+}
+.package_head .price-box .price {
+  font-size: 48px;
+  font-weight: 800;
+  float: left;
+  display: block;
+}
+.package_head .price-box .cut-price {
+  margin: 0;
+  padding: 12px 0 0 9px;
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  text-align: left;
+  /* vertical-align: middle; */
+}
+
+.package_head .price-box .cut-price strike {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1;
+}
+.package_head .price-box .cut-price span {
+  text-align: left;
+  line-height: 1;
+  font-weight: 700;
+}
+.package_head p.desc {
+  display: block;
+  width: 100%;
+  margin: 26px 0 20px 0;
+  font-size: 15px;
+  line-height: normal;
+}
+/*
+    Thank You
+*/
+.thanks-top {
+  text-align: center;
+  display: block;
+}
+
+.thanks-top .sm-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.thanks-top p {
+  text-align: center;
+  font-size: 18px;
+  color: #838383;
+}
+
+.thanks-top .big-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+}
+
+h4.f-title {
+  font-size: 21px;
+  font-weight: 800;
+  color: #1ee32d;
+}
+section.disclaimer {
+  background: #222;
+  color: #fff;
+  margin: 0;
+  padding: 28px 0 16px 0;
+}
+.touch {
+  text-align: center;
+  margin: 35px 0 0;
+}
+.icon-box {
+  margin: 0;
+  display: block;
+  position: relative;
+}
+.icon-box a {
+  text-decoration: none;
+}
+.icon-box span.icon {
+  width: 80px;
+  height: 80px;
+  background: #e1e1e1;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+}
+
+.icon-box span.icon img {
+  width: 48px;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.icon-box p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon-box span a {
+  font-size: 21px;
+  text-decoration: none;
+  color: #0d356d;
+}
+.get-quote:hover {
+  color: #0d356d;
+  background: #fff;
+}
+@media screen and (max-width: 767px) {
+  .action-btn {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .logo-wrapper {
+    width: 260px;
+    margin: auto;
+  }
+  .top-btn {
+    margin: 7px auto 4px;
+    text-align: center;
+    display: block;
+  }
+  .logo-wrapper img {
+    width: 189px;
+    height: 73px;
+    margin: auto;
+    display: block;
+  }
+}
+@media screen and (max-width: 991px) {
+  .b-navigation__menu-right {
+    display: flex;
+    justify-content: center;
+    pointer-events: auto;
+    margin: 47px auto 12px auto;
+  }
+
+  section.briefForm {
+    margin-top: 20px;
+  }
+
+  .seqImg {
+    margin: 0 0 45px 0;
+    padding: 0;
+  }
+
+  section.briefForm .pe-5 {
+    padding: 0 20px !important;
+  }
+
+  .sidebar {
+    margin: 0 0 25px 0;
+  }
+}
+
+header .container .row {
+  align-items: center;
+}
+header {
+  background: #0d356d;
+  padding: 8px 0px;
+  margin: 0px 0px 50px;
+}
+
+header .container .row .col-md-7 {
+  text-align: right;
+}
+
+.prefered-logo-designs .logo-box img {
+  width: 100%;
+  padding: 8px;
+  border: 3px solid #0d356d;
+  border-radius: 4px;
+  transform: scale(1);
+  transition: all 0.6s;
+  background: white;
+  position: relative;
+}
+
+.prefered-logo-designs .logo-box {
+  cursor: pointer;
+}
+
+.prefered-logo-designs .logo-box:hover img {
+  border: 3px solid red;
+  transform: scale(1.4);
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.prefered-logo-designs .logo-box.active img {
+  border: 3px solid red;
+  transform: scale(1);
+  transition: all 0.3s;
+  z-index: 2;
+}
+
+.prefered-logo-designs .logo-box p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #0d356d;
+}
+
+/* Thankyou Page CSS */
+.get-quote {
+  margin: 15px 0 0 0;
+  padding: 10px 15px;
+  background: #0d356d;
+  border-radius: 7px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 100px;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.get-quote:hover {
+  margin: 15px 0 0 0;
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 7px;
+  color: #0d356d;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 100px;
+  border: 0;
+  text-transform: uppercase;
+  box-shadow: 0 0px 6px #0d356d;
+}
+
+.logo-wrapper img {
+  /*width: 225px;*/
+  height: 55px;
+  margin: 8px 0 0 0;
+}
+.thanks-top {
+  text-align: center;
+  display: block;
+}
+
+.thanks-top .sm-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.thanks-top p {
+  text-align: center;
+  font-size: 18px;
+  color: #838383;
+}
+
+.thanks-top .big-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+}
+
+h4.f-title {
+  font-size: 21px;
+  font-weight: 800;
+  color: #1ee32d;
+}
+
+section.disclaimer {
+  background: #222;
+  color: #fff;
+  margin: 0;
+  padding: 28px 0 16px 0;
+}
+
+.touch {
+  text-align: center;
+  margin: 35px 0 0;
+}
+
+.icon-box {
+  margin: 0;
+  display: block;
+  position: relative;
+}
+
+.icon-box a {
+  text-decoration: none;
+}
+
+.icon-box span.icon {
+  width: 80px;
+  height: 80px;
+  background: #e1e1e1;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+}
+
+.icon-box span.icon img {
+  width: 48px;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+.icon-box p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon-box span a {
+  font-size: 21px;
+  text-decoration: none;
+  color: #0d356d;
+}
+
+@media screen and (max-width: 991px) {
+  .logo-wrapper {
+    margin: 16px 26px 0;
+  }
+
+  .logo-wrapper img {
+    width: 170px;
+    display: block;
+    margin: auto;
+  }
+
+  .get-quote {
+    float: unset !important;
+  }
+
+  .get-quote {
+    float: unset !important;
+    margin: 15px auto 0 auto;
+    /*width: 155px;*/
+    display: inline-block;
+  }
+
+  .b-navigation__menu-right {
+    display: flex;
+    justify-content: center;
+    pointer-events: auto;
+    margin: 47px auto 12px auto;
+  }
+
+  section.briefForm {
+    margin-top: 20px;
+  }
+
+  .seqImg {
+    margin: 0 0 45px 0;
+    padding: 0;
+  }
+
+  section.briefForm .pe-5 {
+    padding-right: 0 !important;
+  }
+
+  .sidebar {
+    margin: 0 0 25px 0;
+  }
+}
+
+/* Copyright Brief CSS */
+.bg9 {
+  background-image: url(../images/contact-bg-3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.sec-title .title {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  color: #0a0a0a;
+  margin: 0;
+  position: relative;
+  padding-top: 28px;
+  font-family: "poppins";
+}
+
+.sec-title .title span {
+  color: #0d356d;
+}
+
+.rs-skillbar.style1 .cl-skill-bar .skillbar {
+  height: 7px;
+  line-height: 7px;
+  background-color: #ebebeb;
+  margin: 10px 0 24px;
+  position: relative;
+  width: 100%;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: "poppins";
+}
+
+.rs-contact.contact-style2 .contact-wrap .from-control {
+  padding: 17px 17px 17px 17px;
+  color: #000;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ebebeb;
+  background-color: #f1f1f1;
+  width: 100%;
+  max-width: 100%;
+  opacity: 1;
+  font-family: "poppins";
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 700;
+  font-family: "poppins";
+}
+
+.sub-text {
+  font-weight: 600;
+  margin: 0 0 10px;
+  display: inline-block;
+  color: #0d356d;
+  line-height: 28px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "poppins";
+}
+
+.readon.submit {
+  background-color: #0d356d;
+  padding: 18px 35px 18px 35px;
+  border: 0;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  font-family: "poppins";
+}
+.readon {
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: all 0.4s;
+  z-index: 1;
+  background-color: transparent;
+  font-family: "poppins";
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  .container.custom-for-sl {
+    max-width: 1230px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    max-width: 1140px;
+    width: 100%;
+  }
+  .container.custom {
+    max-width: 1200px;
+    width: 100%;
+  }
+  .container.custom2 {
+    max-width: 1320px;
+    width: 100%;
+  }
+}
