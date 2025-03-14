@@ -14,6 +14,8 @@ This project demonstrates a complete DevOps workflow for a **PHP-based applicati
 ✅ Docker image pushed to Docker Hub  
 ✅ Kubernetes deployment using **Kubeadm** and **Ingress-NGINX Controller**  
 ✅ Fully automated CI/CD pipeline using **GitHub Actions**  
+✅ Configured **Horizontal Pod Autoscaler (HPA)** for auto-scaling  
+✅ Configured **Persistent Volume (PV)** and **Persistent Volume Claim (PVC)** for storage  
 
 ---
 
@@ -24,4 +26,6 @@ graph TD;
     Docker -->|Push| DockerHub;
     DockerHub -->|Pull| Kubernetes;
     Kubernetes -->|Deploy| Ingress-NGINX;
+    Kubernetes -->|Storage| PV/PVC;
+    Kubernetes -->|Auto-scale| HPA;
     GitHubActions -->|Trigger| DockerBuild;
